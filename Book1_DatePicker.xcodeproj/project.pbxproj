@@ -13,6 +13,16 @@
 		D79BC2CB27AC024000405103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2C927AC024000405103 /* Main.storyboard */; };
 		D79BC2CD27AC024100405103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2CC27AC024100405103 /* Assets.xcassets */; };
 		D79BC2D027AC024100405103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2CE27AC024100405103 /* LaunchScreen.storyboard */; };
+		D79BC2D827AC0A9400405103 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79BC2D727AC0A9400405103 /* PickerViewController.swift */; };
+		D79BC2E327AC0AEA00405103 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2DA27AC0AEA00405103 /* 6.JPG */; };
+		D79BC2E427AC0AEA00405103 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2DB27AC0AEA00405103 /* 8.JPG */; };
+		D79BC2E527AC0AEA00405103 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2DC27AC0AEA00405103 /* 3.JPG */; };
+		D79BC2E627AC0AEA00405103 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2DD27AC0AEA00405103 /* 1.JPG */; };
+		D79BC2E727AC0AEA00405103 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2DE27AC0AEA00405103 /* 4.JPG */; };
+		D79BC2E827AC0AEA00405103 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2DF27AC0AEA00405103 /* 5.JPG */; };
+		D79BC2E927AC0AEA00405103 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2E027AC0AEA00405103 /* 7.JPG */; };
+		D79BC2EA27AC0AEA00405103 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2E127AC0AEA00405103 /* 9.JPG */; };
+		D79BC2EB27AC0AEA00405103 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D79BC2E227AC0AEA00405103 /* 2.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		D79BC2CC27AC024100405103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79BC2CF27AC024100405103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D79BC2D127AC024100405103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79BC2D727AC0A9400405103 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = SOURCE_ROOT; };
+		D79BC2DA27AC0AEA00405103 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
+		D79BC2DB27AC0AEA00405103 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
+		D79BC2DC27AC0AEA00405103 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		D79BC2DD27AC0AEA00405103 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		D79BC2DE27AC0AEA00405103 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		D79BC2DF27AC0AEA00405103 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
+		D79BC2E027AC0AEA00405103 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
+		D79BC2E127AC0AEA00405103 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		D79BC2E227AC0AEA00405103 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,33 @@
 		D79BC2C227AC024000405103 /* Book1_DatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				D79BC2D927AC0ACB00405103 /* Images */,
 				D79BC2C327AC024000405103 /* AppDelegate.swift */,
 				D79BC2C527AC024000405103 /* SceneDelegate.swift */,
 				D79BC2C727AC024000405103 /* ViewController.swift */,
+				D79BC2D727AC0A9400405103 /* PickerViewController.swift */,
 				D79BC2C927AC024000405103 /* Main.storyboard */,
 				D79BC2CC27AC024100405103 /* Assets.xcassets */,
 				D79BC2CE27AC024100405103 /* LaunchScreen.storyboard */,
 				D79BC2D127AC024100405103 /* Info.plist */,
 			);
 			path = Book1_DatePicker;
+			sourceTree = "<group>";
+		};
+		D79BC2D927AC0ACB00405103 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D79BC2DD27AC0AEA00405103 /* 1.JPG */,
+				D79BC2E227AC0AEA00405103 /* 2.JPG */,
+				D79BC2DC27AC0AEA00405103 /* 3.JPG */,
+				D79BC2DE27AC0AEA00405103 /* 4.JPG */,
+				D79BC2DF27AC0AEA00405103 /* 5.JPG */,
+				D79BC2DA27AC0AEA00405103 /* 6.JPG */,
+				D79BC2E027AC0AEA00405103 /* 7.JPG */,
+				D79BC2DB27AC0AEA00405103 /* 8.JPG */,
+				D79BC2E127AC0AEA00405103 /* 9.JPG */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +163,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79BC2EA27AC0AEA00405103 /* 9.JPG in Resources */,
+				D79BC2E827AC0AEA00405103 /* 5.JPG in Resources */,
+				D79BC2E727AC0AEA00405103 /* 4.JPG in Resources */,
 				D79BC2D027AC024100405103 /* LaunchScreen.storyboard in Resources */,
 				D79BC2CD27AC024100405103 /* Assets.xcassets in Resources */,
+				D79BC2E627AC0AEA00405103 /* 1.JPG in Resources */,
+				D79BC2EB27AC0AEA00405103 /* 2.JPG in Resources */,
+				D79BC2E927AC0AEA00405103 /* 7.JPG in Resources */,
+				D79BC2E327AC0AEA00405103 /* 6.JPG in Resources */,
+				D79BC2E527AC0AEA00405103 /* 3.JPG in Resources */,
+				D79BC2E427AC0AEA00405103 /* 8.JPG in Resources */,
 				D79BC2CB27AC024000405103 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +187,7 @@
 			files = (
 				D79BC2C827AC024000405103 /* ViewController.swift in Sources */,
 				D79BC2C427AC024000405103 /* AppDelegate.swift in Sources */,
+				D79BC2D827AC0A9400405103 /* PickerViewController.swift in Sources */,
 				D79BC2C627AC024000405103 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +343,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +372,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
